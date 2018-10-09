@@ -1,0 +1,101 @@
+﻿body {
+    background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/abstract-white-gray-in-center-old-black-border-backdrop-a_1024x1024@2x.jpg?v=1527220201");
+    background-attachment: fixed;
+}
+
+.whitetxt {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.safe {
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.logotxt {
+    margin-left: 75px;
+}
+
+.mjlogo {
+    margin-top: 2px;
+    margin-left: 2px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+h6 {
+    font-size: 30px;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+nav, footer, .page-footer {
+    background-color: darkslategrey;
+}
+
+.movieoverview {
+    color: aliceblue;
+    background-color: rgba(47, 79, 79, .5);
+    box-shadow: 0 1px 1px black;
+    padding: 15px;
+}
+
+.rightalign {
+    text-align: right;
+}
+
+.card {
+    max-width: 600px !important;
+    max-height: 420px !important;
+    height: auto !important;
+    width: auto !important;
+}
+
+.card.horizontal .card-image img {
+    overflow: hidden;
+    max-width: 297px !important;
+    max-height: 420px !important;
+    height: auto !important;
+    width: auto !important;
+}
+
+.card.horizontal .card-image {
+        overflow: hidden;
+}
+
+.poster {
+    box-shadow: 0 3px 3px black;
+}
+
+.toast {
+    background-image: url("https://i.imgur.com/xj9PRZW.gif") !important;
+    height: 210px !important;
+    width: 210px !important;
+    border-radius: 100%; 
+    box-shadow: 0 3px 3px black;
+}
+
+.saucisse {
+    background-image: url("saucisse.png");
+}
+
+.separator {
+    border-bottom: aliceblue solid 1px;
+    padding-bottom: 15px;
+}
+
+
+.backinblack {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.3;
+}

@@ -1,0 +1,77 @@
+﻿@using System.Web.Optimization
+@using Microsoft.Ajax.Utilities
+@using TMDbLib.Objects.General
+@using TMDbLib.Objects.Movies
+@using TMDbLib.Objects.Search
+@model Movies.Models.MovieDetailViewModel
+
+
+<img class="backinblack" src="http://image.tmdb.org/t/p/w1280//@Model.Movie.BackdropPath" />
+
+<div class="row">
+    <input type="hidden" id="movieId" value="@Model.Movie.Id" /><!---->
+    <div class="col s12">
+        <h2>@(Model.Movie.Title)</h2>
+    </div>
+    <div class="col s6">
+        <img class="poster" src="@($"https://image.tmdb.org/t/p/w500/{Model.Movie.PosterPath}")">
+
+    </div>
+    <div class="col s6 whitetxt movieoverview">
+        <h6>Pitch :</h6>
+        <p class="separator">@(Model.Movie.Overview)</p>
+
+        <div class="col s6 whitetxt ">
+            <p>Note : @(Model.Movie.VoteAverage) saucisses</p>
+            <img class="saucisse" src="~/Content/vide.png" height="25px" width="@(Model.Movie.VoteAverage * 25)px">
+        </div>
+        <div class="col s6 whitetxt ">
+            <p class="rightalign">Durée : @(Model.Movie.Runtime) minutes </p>
+            <p class="rightalign">Sorti le : @(Model.Movie.ReleaseDate.ToString().Substring(0, 10)) </p>
+        </div>
+        <br />
+        <div class="separator col s12"></div>
+        <div class="separator col s12">
+            <div class="col s6">
+                <p>Genres</p>
+                <tr>
+                    <td>
+                        @foreach (var Genre in Model.Movie.Genres)
+                        {
+                            <li>@Genre.Name</li>
+                        }
+                    </td>
+                </tr>
+            </div>
+            <div class="col s6">
+                <p class="rightalign">
+                    Safe ?
+                    @if (Model.Movie.Adult is false)
+                    {
+                    <p class="rightalign"><img class="safe" src="~/Content/yes.png"></p>
+                }
+                else
+                {
+                    <p class="rightalign"><img class="safe" src="~/Content/no.png"></p>
+                }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row s6">
+       
+    </div>
+
+<div id="similarResult">
+ 
+</div>
+
+<div id="videoResult">
+
+</div>
+
+@section script{
+        @Scripts.Render("~/bundles/Search")
+    }
+

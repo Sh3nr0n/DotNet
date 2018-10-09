@@ -1,0 +1,17 @@
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/bin/Debug/netcoreapp2.0/WebApplication5.deps.json
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/bin/Debug/netcoreapp2.0/WebApplication5.runtimeconfig.json
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/bin/Debug/netcoreapp2.0/WebApplication5.runtimeconfig.dev.json
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/bin/Debug/netcoreapp2.0/WebApplication5.dll
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/bin/Debug/netcoreapp2.0/WebApplication5.pdb
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.csproj.CoreCompileInputs.cache
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.AssemblyInfoInputs.cache
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.AssemblyInfo.cs
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.dll
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.pdb
+/home/k0d3/Documents/github/MasterClassCSharp/WebApplication5/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.csprojResolveAssemblyReference.cache
+/home/k0d3/Documents/github/MasterClassDotNet/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.csprojResolveAssemblyReference.cache
+/home/k0d3/Documents/github/MasterClassDotNet/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.csproj.CoreCompileInputs.cache
+/home/k0d3/Documents/github/MasterClassDotNet/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.AssemblyInfoInputs.cache
+/home/k0d3/Documents/github/MasterClassDotNet/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.AssemblyInfo.cs
+/home/k0d3/Documents/github/MasterClassDotNet/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.dll
+/home/k0d3/Documents/github/MasterClassDotNet/WebApplication5/obj/Debug/netcoreapp2.0/WebApplication5.pdb

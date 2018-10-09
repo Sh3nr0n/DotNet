@@ -1,0 +1,7 @@
+﻿@using TMDbLib.Objects.Search
+@model List<TMDbLib.Objects.Search.SearchTv>
+
+@foreach (SearchTv SearchTv in Model)
+{
+    @Html.Partial("_SerieCard", SearchTv)
+}

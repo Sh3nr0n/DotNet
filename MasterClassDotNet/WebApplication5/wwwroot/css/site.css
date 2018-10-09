@@ -1,0 +1,52 @@
+﻿body {
+    margin-top: 5%;
+    background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/abstract-white-gray-in-center-old-black-border-backdrop-a_1024x1024@2x.jpg?v=1527220201");
+    background-attachment: fixed;
+}
+.whitetxt {
+    color: aliceblue;
+    font-size: 20px;
+}
+h6 {
+    font-size: 30px;
+}
+h2 {
+    color: aliceblue;
+}
+nav, .page-footer {
+    background-color: darkslategrey;
+}
+footer{
+    color: aliceblue;
+}
+.movieOverview {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: calc(50% - 20px)!important;
+    color: aliceblue;
+    background-color: rgba(47, 79, 79, .5);
+    box-shadow: 0 1px 1px black;
+    margin: 10px;    
+}
+.movieoverviewdetail {
+    color: aliceblue;
+    background-color: rgba(47, 79, 79, .5);
+    box-shadow: 0 1px 1px black;
+}
+.rightalign {
+    text-align: right;
+}
+.title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card {
+    background-color: rgba(47, 79, 79, .5);
+}
+.poster {
+    box-shadow: 0 3px 3px black;
+}
+.separator {
+    border-bottom: aliceblue solid 1px;
+    padding-bottom: 15px;
+}

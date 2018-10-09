@@ -1,0 +1,18 @@
+﻿@using System.Web.Optimization
+<div class="row">
+    <div class="input-field col s12">
+        <i class="fa fa-search prefix"></i>
+        <input id="search" type="text">
+        <label for="search">Rechercher un film</label>
+    </div>
+</div>
+
+
+    <div id="searchResult"></div>
+
+
+
+@section script
+{
+    @Scripts.Render("~/bundles/Search")
+}

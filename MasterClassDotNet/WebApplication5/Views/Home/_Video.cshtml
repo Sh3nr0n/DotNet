@@ -1,0 +1,6 @@
+﻿@using TMDbLib.Objects.General
+@model List<Video>
+@foreach (Video video in Model)
+{
+    <iframe width="49%" height="400px" src="https://www.youtube.com/embed/@video.Key" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+}

@@ -1,0 +1,19 @@
+﻿@model TMDbLib.Objects.Search.SearchMovie
+
+
+<div class="col s12 m6">
+    <div class="card horizontal">
+        <div class="card-image imagecard">
+            <img src="@($"https://image.tmdb.org/t/p/w500/{Model.PosterPath}")">
+        </div>
+        <div class="card-stacked">
+            <div class="card-content">
+                <span class="card-title">@(Model.Title.Length <= 25 ? Model.Title : Model.Title.Substring(0, 25) + "...")</span>
+                <p>@(Model.Overview.Length <= 150 ? Model.Overview : Model.Overview.Substring(0, 150) + "...")</p>
+            </div>
+            <div class="card-action">
+                <a href="@Url.Action("MovieDetail", "Home", new {id = Model.Id})">Voir le détail</a>
+            </div>
+        </div>
+    </div>
+</div>

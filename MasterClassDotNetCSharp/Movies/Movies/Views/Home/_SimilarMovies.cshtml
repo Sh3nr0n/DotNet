@@ -1,0 +1,9 @@
+﻿@using TMDbLib.Objects.Search
+@model List<SearchMovie>
+
+<div class="row">
+    @foreach (SearchMovie movie in Model)
+    {
+        @Html.Partial("_MovieCard",movie)
+    }
+</div>

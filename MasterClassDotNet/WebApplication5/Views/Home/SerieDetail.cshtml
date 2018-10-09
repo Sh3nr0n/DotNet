@@ -1,0 +1,21 @@
+﻿@model TMDbLib.Objects.TvShows.TvShow
+<img class="backinblack" src="http://image.tmdb.org/t/p/w1280//@Model.BackdropPath" />
+
+<div class="row">
+    <div class="col s12"><h2>@(Model.Name)</h2></div>
+    <div class="col s6"><img class="poster" src="@($"https://image.tmdb.org/t/p/w500/{Model.PosterPath}")"></div>
+    <div class="col s6 whitetxt movieoverview">
+        <h6>Pitch :</h6>
+        <p class="separator">@(Model.Overview)</p>
+        <div class="col s6 whitetxt ">
+            <p>Note : @(Model.VoteAverage) saucisses</p>
+            <img class="saucisse" src="~/Content/vide.png" height="25px" width="@(Model.VoteAverage * 25)px">
+        </div>
+        <div class="col s6 whitetxt ">
+            <p class="rightalign">@(Model.NumberOfSeasons) Saisons</p>
+            <p class="rightalign">@(Model.NumberOfEpisodes) Episodes</p>
+        </div>
+    </div>
+</div>
+
+

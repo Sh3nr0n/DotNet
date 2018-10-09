@@ -1,0 +1,61 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mouviz</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    @Styles.Render("~/bundles/General")
+    
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><img class="mjlogo" src="https://media1.tenor.com/images/54451401d52c0dd2fe9ee5752857d53c/tenor.gif"/></a>
+        <a href="/" class="brand-logo logotxt">Mouviz</a>
+
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/">Films</a></li>
+            <li><a href="/Home/Serie">Series</a></li>
+            <li><a href="@Url.Action("Index","Search")">Recherche</a></li>
+            <li><a onclick="M.toast({html: ''})" class="">Milla Kunis en short</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container row">
+    @RenderBody()
+</div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">C'est l'pied (de page)</h5>
+                <p class="grey-text text-lighten-4">Du cinéma comme on aime.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">FAQ</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Zelda</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2018 Copyright Text 
+            <a class="grey-text text-lighten-4 right" href="#!">Toujours +</a>
+        </div>
+    </div>
+</footer>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+@RenderSection("script",false)
+</body>
+</html>
